@@ -21,8 +21,12 @@ def long_planeteer_calls(arr)
   end
 end
 
-def find_the_cheese()
+def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  
+  cheese = ""
+  cheese_types.map do |x|
+    arr.include?(x)
+    cheese = x
+  end 
+  cheese
 end
