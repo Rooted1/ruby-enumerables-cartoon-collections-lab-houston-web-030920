@@ -30,7 +30,6 @@ def find_the_cheese(arr)
       cheese = x
       break
     end 
-    binding.pry
   end 
   cheese
   
