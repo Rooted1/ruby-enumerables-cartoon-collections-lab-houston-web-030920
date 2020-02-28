@@ -29,7 +29,7 @@ def find_the_cheese(arr)
     if arr.include?(x)
       cheese = x
     end 
-    bini
+    binding.pry
   end 
   cheese
   
