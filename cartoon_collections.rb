@@ -26,8 +26,9 @@ def find_the_cheese(arr)
   cheese = ""
   
   cheese_types.map do |x|
-    arr.include?(x)
-    cheese = x
+    if arr.include?(x)
+      cheese = x
+    end 
   end 
   cheese
 end
