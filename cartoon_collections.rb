@@ -29,6 +29,8 @@ def find_the_cheese(arr)
     if arr.include?(x)
       cheese = x
       break
+    else 
+      nil
     end 
   end 
   cheese
