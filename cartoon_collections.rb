@@ -28,6 +28,7 @@ def find_the_cheese(arr)
   cheese_types.map do |x|
     if arr.include?(x)
       cheese = x
+      break
     end 
     binding.pry
   end 
