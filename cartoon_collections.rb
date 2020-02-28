@@ -4,7 +4,7 @@ def roll_call_dwarves(arr)
   end 
 end
 
-def summon_captain_plane(arr)
+def summon_captain_planet(arr)
   new_arr = [] 
   
   arr.map do |element|
