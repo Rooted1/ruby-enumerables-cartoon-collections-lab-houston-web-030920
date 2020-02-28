@@ -12,7 +12,6 @@ def summon_captain_planet(arr)
   arr.map do |element|
     new_arr << "#{element.capitalize}!"
   end
-  binding.pry 
   new_arr
 end
 
