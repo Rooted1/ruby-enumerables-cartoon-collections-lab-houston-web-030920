@@ -4,8 +4,13 @@ def roll_call_dwarves(arr)
   end 
 end
 
-def summon_captain_plane()
-  # Your code here
+def summon_captain_plane(arr)
+  new_arr = [] 
+  
+  arr.map do |element|
+    new_arr << "#{element[0].capitalize} !"
+  end
+  new_arr
 end
 
 def long_planeteer_calls()
