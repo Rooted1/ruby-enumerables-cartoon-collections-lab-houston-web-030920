@@ -1,3 +1,5 @@
+require "pry"
+
 def roll_call_dwarves(arr)
   arr.each.with_index(1) do |element, i|
     puts "/#{i}.*#{element}/\n" 
@@ -10,6 +12,7 @@ def summon_captain_planet(arr)
   arr.map do |element|
     new_arr << "#{element[0].capitalize} !"
   end
+  binding.pry 
   new_arr
 end
 
